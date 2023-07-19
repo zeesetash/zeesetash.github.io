@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/bik.Rmd)
+[Project 1 Title](/sample_page)
 <img src="images/diamonds.png?raw=true"/>
 
 ---
