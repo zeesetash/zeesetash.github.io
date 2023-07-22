@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Project 1 Title](pdf/Cyclystic_Bikeshare.pdf)
 <img src="images/diamonds.png?raw=true"/>
 
 ---
