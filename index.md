@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](pdf/Cyclystic_Bikeshare.pdf)
+[Project 1 Title](Cyclystic_Bikeshare.html)
 <img src="images/diamonds.png?raw=true"/>
 
 ---
