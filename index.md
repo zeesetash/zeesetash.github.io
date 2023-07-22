@@ -16,7 +16,7 @@ This is my capstone project for the Google Data Analytics course. In this projec
 
 
 ---
-
+<img src="images/google-data-analytics-certificate.2.png?raw=true"/>
 
 
 
