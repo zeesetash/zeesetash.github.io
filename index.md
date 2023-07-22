@@ -2,28 +2,18 @@
 
 ---
 
-### Category Name 1 
+### Data Analysis Projects 
 
-[Project 1 Title](Cyclystic_Bikeshare.html)
-<img src="images/diamonds.png?raw=true"/>
+[Cyclystic Bikeshare](Cyclystic_Bikeshare.html)
+<img src="images/A Case Study.png?raw=true"/>
+This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members.
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Other
+- [My Resume](https://docs.google.com/document/d/1n4zU4SAOJG1WLW_lpG3Ey2-urYSzb5bb/edit?usp=sharing&ouid=101751421529921596204&rtpof=true&sd=true)
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
