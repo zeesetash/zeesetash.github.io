@@ -6,7 +6,7 @@
 
 [Cyclystic Bikeshare](Cyclystic_Bikeshare.html)
 <img src="images/A Case Study.png?raw=true"/>
-This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members.
+This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members. I did my analysis using R.
 
 
 ---
