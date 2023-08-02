@@ -1,45 +1,34 @@
-# Bikeshare Case Study
+# Virginia Public Schools
 
-## Introduction
+As a former teacher, I have great interest in educational data. As an educator, you are constantly looking at data comparing students, classes, schools, and even divisions. Each division wants to be the best. Each school wants to be the best. This lead me to my overarching question: 
 
-Cyclistic is a (fictional) bikeshare company based in Chicago. The marketing director has set the goal of converting existing casual users into annual members. The data for this analysis is provided [here](https://divvy-tripdata.s3.amazonaws.com/index.html). My analysis is focusing on the time frame of July 2022 - June 2023. In order to guide business decisions, I am focusing on a singular question:
+**What are common traits within the best and worst performing schools?**
 
-How do annual **members** and **casual** riders use Cyclistic bikes differently?
+## The Data 
+I taught in Virginia, so my focus in on Virignia public schools. This uses the most recent complete data which is from the 2021- 2022 school year. All of the data is sourced from the Virginia Department of Education which I cleaned and compiled on [Kaggle](https://www.kaggle.com/datasets/zsetash/virginia-public-schools). As there are multiple schools with the same name in different divisions, I created a primary key titled Sch_Div that is present through all of the datasets to ensure there was no confusion over which school was which. The data contains information about:
+- State Assessment (SOL) Pass Rates
+- Chronic Absenteeism Rates
+- Graduation Rates
+- Free and Reduced Lunch Eligibility
+- State and Federal Funding
+- Teacher Experience, Education, and Licensure
+- Student Demographic information
 
-## Preparing Data
+In order to define the *best* and *worst* schools, I used the end of state testing, the Virginia Standards of Learning (SOL) Test. For my analysis, I excluded schools that are geared towards students with disabilities or behavior issues. The best schools are the schools that ranked in the 95th percentile or above for average pass rate on the SOL tests. These were average  pass rates of 88.6 or higher. The worst schools are the schools that ranked in the 5th percentile or below for average pass rate on the SOL tests. These were average pass rates of 38 or below. 
 
-### Limitations
+## Analysis
 
-The current data records rides, not riders. I do not have information to compare how many times a specific rider uses the service.
+### Geographic Trends
+<img src="images/Story 1.png?raw=true"/>
 
-### Cleaning Data
+Both the top ranked and bottom ranked schools are gathered near cities. Most of the lower performing schools are in cities. The top schools are more spread out, while the bottom schools tend to be more clustered. There do not appear to be trends based on the per capita income. Both high and low performing schools can be found accross the income spectrum by county.
 
-Prior to importing the data into R, I made some cleaning adjustments. I verified that the column names were consistent across files. I added the column *ride_length* using the difference between the columns *ended_at* and *started_at* in order to later learn more about the differences in ride lengths between users. I also added a *day_of_week* column using the WEEKDAY function in order to later compare usage across days of the week.
+## School Funding
+<img src="images/Story 1 (3).png?raw=true"/>
 
-### Importing Packages and Data
+The lowest perfoming schools spend more money per pupil. The bottom schools spend $2,000 more per pupil than the top schools on average and $3,000 more per pupil than all other schools on average. However, the higher performing schools spend more money overall on average. There are some costs that are excluded from the per pupil calculation but are included in the total expenditure. According the the VDOE:
+> Excluded expenditures include adult education, community services, non-regular school day programs, capital purchases, debt service, food services, and fund transfers.
 
-```{r packages}
-install.packages("tidyverse")
-library("tidyverse")
-```
+Therefore, the higher performing schools are spending more money on extracurricular activities.
 
-```{r data import, warning=FALSE}
-july <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.07_bikeshare.csv")
-august <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.08_bikeshare.csv")
-september <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.09_bikeshare.csv")
-october <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.10_bikeshare.csv")
-november <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.11_bikeshare.csv")
-december <- read_csv("C:/Users/Z/Desktop/Bikeshare/2022.12_bikeshare.csv")
-january <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.01_bikeshare.csv")
-february <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.02_bikeshare.csv")
-march <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.03_bikeshare.csv")
-april <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.04_bikeshare.csv")
-may <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.05_bikeshare.csv")
-june <- read_csv("C:/Users/Z/Desktop/Bikeshare/2023.06_bikeshare.csv")
-```
-
-I then combined the data into a single dataframe, to better see overall trends.
-
-```{r combine}
-year <- rbind(january, february, march, april, may, june, july, august, september, october, november, december)
-```
+The images are from my [Tableau](https://public.tableau.com/views/VirginiaPublicSchools/Story1?:language=en-US&:display_count=n&:origin=viz_share_link) dashboard.
