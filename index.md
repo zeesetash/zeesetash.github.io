@@ -8,6 +8,10 @@
 <img src="images/Virginia.png?raw=true"/>
 This is a self driven project meant to look at the different performance levels of Virginia Public Schools. My analysis was completed using SQL, Tableau, and Excel.
 
+[My Journey Through Hades](https://public.tableau.com/views/MyJourneythroughHades/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
+<img src="images/A Case Study (2).png?raw=true"/>
+I enjoy playing video games. I am not good at playing video games. Follow along with my journey through Hades the video game as I track my choices using Tableau, hopefully learning succeeding in escaping the Underworld.
+
 [Cyclystic Bikeshare](Cyclystic_Bikeshare.html)
 <img src="images/A Case Study.png?raw=true"/>
 This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members. I did my analysis using R.
