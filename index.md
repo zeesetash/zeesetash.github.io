@@ -3,6 +3,10 @@
 ---
 
 ### Data Analysis Projects 
+[Bees in Maryland](bees.md)
+<img src="images/bees.png?raw=true"/>
+
+I took inspiration from a DataCamp competition to showcase my skills in using R and creating a presentation for my findings. This project analyzes the preferred species of plants for Maryland bees.
 
 [Virginia Public Schools](VA_schools.md)
 <img src="images/Virginia.png?raw=true"/>
