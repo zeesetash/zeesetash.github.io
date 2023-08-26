@@ -14,8 +14,8 @@ The team has collected data on native and non-native plants and their effects on
 
 ### The Data
 You have assembled information on the plants and bees research in a file called `plants_and_bees.csv`. Each row represents a sample that was taken from a patch of land where the plant species were being studied.
-| Column     | Description              |
-|------------|--------------------------|
+| Column | Description |
+|---|---|
 | `sample_id` | The ID number of the sample taken. |
 | `bees_num` | The total number of bee individuals in the sample. |
 | `date` | Date the sample was taken. |
@@ -32,6 +32,7 @@ You have assembled information on the plants and bees research in a file called 
 | `nesting` | The bees nesting method. |
 | `status` | The status of the bee species. |
 | `nonnative_bee` | Whether the bee species is native or not (0:no, 1:yes). |
+
 [Source](https://datadryad.org/stash/dataset/doi%253A10.5061%252Fdryad.pzgmsbcj8) (data has been modified)
 
 ### Challenge
