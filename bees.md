@@ -2,7 +2,7 @@
 
 Below are the directions for the [DataCamp](https://app.datacamp.com/learn/competitions/bee-friendly-plants) competition. I created my project after the competition concluded, so this was not formally submitted. I have included my code in R and a presentation that I would use to present my findings in a business setting.
 
-## [Code in R](bees.html)
+## [Code in R](Rbees.html)
 ## [Presentation](https://docs.google.com/presentation/d/1qXnJ9NKR5zUDQzQz9CW5uKH6W0XH9YnZa_qwRU-GMrY/view?usp=sharing)
 
 ## Which plants are better for bees: native or non-native?
