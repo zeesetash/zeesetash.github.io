@@ -3,7 +3,7 @@ logo: "/images/headshot.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I was a teacher for four years, but I realized it wasn't the right fit for me. I discovered a love of data analysis and decided to start a new career. I am excited to put my new skills to use. 
   <br><br>
-<img src="images/google-data-analytics-certificate.2.png?raw=true"/>
+logo: <img src="images/google-data-analytics-certificate.2.png?raw=true"/>
   
   <a href="https://www.linkedin.com/in/zee-setash-316516228//">View My LinkedIn Profile</a> 
   
