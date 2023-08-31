@@ -7,14 +7,14 @@
 <img src="images/Study.png?raw=true"/>
 This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members. I did my analysis using R.
 
+[Virginia Public Schools](VA_schools.md)
+<img src="images/Virginia.png?raw=true"/>
+This is a self driven project meant to look at the different performance levels of Virginia Public Schools. My analysis was completed using SQL, Tableau, and Excel.
+
 [Bees in Maryland](bees.md)
 <img src="images/bees.png?raw=true"/> 
 
 I took inspiration from a DataCamp competition to showcase my skills in using R and creating a presentation for my findings. This project analyzes the preferred species of plants for Maryland bees.
-
-[Virginia Public Schools](VA_schools.md)
-<img src="images/Virginia.png?raw=true"/>
-This is a self driven project meant to look at the different performance levels of Virginia Public Schools. My analysis was completed using SQL, Tableau, and Excel.
 
 [My Journey Through Hades](https://public.tableau.com/views/MyJourneythroughHades/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 <img src="images/Hades.png?raw=true"/>
