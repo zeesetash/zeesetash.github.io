@@ -2,9 +2,9 @@ title: Zee Setash # your name (or website title) here
 logo: "/images/headshot.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Up-and-coming data analyst with four years of elementary education experience. After my time teaching, I have gained a unique perspective on data analysis and its practical real-time implementation. Ask me about it sometime! 
-  
+  <br><br>
   <a href="azsetash@gmail.com"> Message Me
-  
+  <br><br>
   <a href="https://www.linkedin.com/in/zee-setash-316516228//">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
