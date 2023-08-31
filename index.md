@@ -3,6 +3,10 @@
 ---
 
 ### Data Analysis Projects
+[Cyclystic Bikeshare](Cyclystic_Bikeshare.html)
+<img src="images/Study.png?raw=true"/>
+This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members. I did my analysis using R.
+
 [Bees in Maryland](bees.md)
 <img src="images/bees.png?raw=true"/> 
 
@@ -16,9 +20,7 @@ This is a self driven project meant to look at the different performance levels 
 <img src="images/Hades.png?raw=true"/>
 I enjoy playing video games. I am not good at playing video games. Follow along with my journey through Hades the video game as I track my choices using Tableau, hopefully learning succeeding in escaping the Underworld.
 
-[Cyclystic Bikeshare](Cyclystic_Bikeshare.html)
-<img src="images/Study.png?raw=true"/>
-This is my capstone project for the Google Data Analytics course. In this project, I analyzed a year of data from a bikeshare company to make recommendations on how to increase the number of annual members. I did my analysis using R.
+
 
 
 ---
@@ -28,7 +30,7 @@ This is my capstone project for the Google Data Analytics course. In this projec
 - [Tableau Public](https://public.tableau.com/app/profile/z.setash)
 
 ---
-<img src="images/google-data-analytics-certificate.2.png?raw=true"/>
+
 
 
 
