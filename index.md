@@ -28,6 +28,7 @@ I enjoy playing video games. I am not good at playing video games. Follow along 
 ## Other
 - [My Resume](https://docs.google.com/document/d/1n4zU4SAOJG1WLW_lpG3Ey2-urYSzb5bb/edit?usp=sharing&ouid=101751421529921596204&rtpof=true&sd=true)
 - [Tableau Public](https://public.tableau.com/app/profile/z.setash)
+- [DataCamp Portfolio](https://www.datacamp.com/portfolio/azsetash)
 
 ---
 <img src="images/google-data-analytics-certificate.2.png?raw=true"/>
