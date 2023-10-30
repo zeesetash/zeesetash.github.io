@@ -23,13 +23,23 @@ plt.title('Wage by Gender')
 plt.legend()
 plt.show()
 
+#calculate difference in wages
+wage_gap["Difference"] = wage_gap["Men Median"] - wage_gap["Women Median"]
+wage_mw = wage_gap[["Date", "Difference", "Men Median", "Women Median"]].sort_values(by=["Difference"])
+print(wage_mw)
+
 #plot of gender gap
 plt.figure(4)
 plt.plot("Date", "Gap (Median)", data=wage_gap )
 plt.xlabel("Year")
 plt.ylabel("Percent Gap of Median")
 plt.title("Wage Gap for Women")
+plt.ylim(10, 40)
 plt.show()
+
+#track gap as percentage
+gap_mw = wage_gap[["Date", "Gap (Median)"]].sort_values(by=["Gap (Median)"])
+print(gap_mw)
 
 #plot of men Median wages
 plt.figure(2)
@@ -73,3 +83,20 @@ plt.ylim(10,30)
 plt.legend()
 plt.show()
 
+#plot gap by race
+plt.figure(6)
+plt.plot("Date", "Gap (Median)", data=wage_bw, label= "Black Wage Gap", color='g')
+plt.plot("Date", "Gap (Median)", data=wage_hw, label= "Hispanic Wage Gap", color='c')
+plt.ylabel("Percent Gap of Median")
+plt.title("Wage Gap for Racial Minorities")
+plt.xlabel("Year")
+plt.legend()
+plt.ylim(10, 40)
+plt.show()
+
+wage_hw["Gap Hispanic"] = wage_hw["Gap (Median)"]
+wage_bw["Gap Black"] = wage_bw["Gap (Median)"]
+gap_b = wage_bw[["Date", "Gap Black"]]
+gap_h = wage_hw["Gap Hispanic"]
+gap_bh = pd.concat([gap_b, gap_h], axis=1)
+print(gap_bh.sort_values(by=["Gap Black"]), gap_bh.sort_values(by=["Gap Hispanic"]))
