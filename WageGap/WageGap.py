@@ -72,3 +72,4 @@ plt.title("Wages by Race")
 plt.ylim(10,30)
 plt.legend()
 plt.show()
+
