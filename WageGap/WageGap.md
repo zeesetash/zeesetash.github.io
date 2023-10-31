@@ -25,7 +25,7 @@ There has consistenly been a difference in the median hourly wage based on race.
 
 Controlling for gender, race and ethnicity, education, age, and geographic location, the gap for racial minorities is smaller than that of women, but still exists. Hispanic workers have consistently earned at least 10%, though no more than 13.5%, less than their White counterparts. Black workers have earned a range of 8.2% to 16.2% less than their White counterparts.
 
-### Women Minorities
+### Race and Gender
 <img src="Figure_3.png?raw=true"/>
 Excepting one year, Black and Hispanic workers of either gender have earned lower than the overall median. Women consistently earn less than the men of their racial group. Hispanic Women earn the least of any gender and race combination reported. 
 
